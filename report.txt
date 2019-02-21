@@ -1,0 +1,38 @@
+In the isolation game, as the game draws to a clos
+My heuristic incorporates the fact that a player doesn't want to be at the edge of the board where its movement is most likely limited.
+
+
+25.0%   70.0%
+35.0%   70.0%
+25.0%   __
+30.0%   50.0%
+40.0%   60.0%
+25.0%   60.0%
+40.0%   60.0%
+40.0%   65.0%
+50.0%   55.0%
+25.0%   50.0%
+
+
+50.0%   50.0%
+50.0%   45.0%
+50.0%   55.0%
+50.0%   45.0%
+50.0%   45.0%
+50.0%   50.0%
+50.0%   50.0%
+50.0%   55.0%
+50.0%   55.0%
+50.0%   70.0%
+
+
+20 GAMES FOR BASE_LINE
+BASE_LINE vs GREEDY  - 75.0%%
+BASE_LINE vs RANDOM - 87.5%%
+BASE_LINE vs MINIMAX - 50%%
+
+
+20 GAMES FOR MY HEURISTIC
+MY_HEURISTIC vs GREEDY - 75.0%%
+MY_HEURISTIC vs GREEDY - 97.5%%
+MY_HEURISTIC vs GREEDY - 70.0%%
